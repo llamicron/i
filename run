@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# !/Users/llamicron/python_env/bin/python
 from i.i import I
 import argparse
 
