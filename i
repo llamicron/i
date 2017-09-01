@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 from i import I
 import argparse
+from version import VERSION
 
-from VERSION import VERSION
 __version__ = VERSION
 
 i = I(file="/Users/llamicron/.i")
