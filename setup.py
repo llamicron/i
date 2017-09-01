@@ -1,5 +1,5 @@
 from distutils.core import setup
-from version import VERSION
+from i_version import VERSION
 setup(
     name='llamicron-i',
     packages=[],
@@ -11,5 +11,5 @@ setup(
     download_url='https://github.com/llamicron/i/archive/0.1.tar.gz',
     keywords=['ssh', 'server', 'connect'],
     classifiers=[],
-    scripts=["bin/i"]
+    scripts=["i"]
 )

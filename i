@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from i import I
 import argparse
-from version import VERSION
+from i_version import VERSION
 
 __version__ = VERSION
 
