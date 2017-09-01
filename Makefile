@@ -1,6 +1,6 @@
 install:
-	pyinstaller run --onefile
-	cp dist/run ~/bin/i
+	pyinstaller run --onefile --name i
+	cp dist/i ~/bin/i
 
 clean:
 	rm -rf build

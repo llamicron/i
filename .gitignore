@@ -1,5 +1,6 @@
 htmlcov
 tests/__pycache__
+i/__pycache__
 .coverage
 build/
 dist/
