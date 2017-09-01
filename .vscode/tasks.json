@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "taskName": "test",
+      "suppressTaskName": true,
+      "command": "pytest",
+      "isTestCommand": true
+    }
+  ]
+}
