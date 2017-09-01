@@ -1,5 +1,5 @@
 import unittest
-from ..i import seed_data
+import seed_data
 
 class SeedDataTestCase(unittest.TestCase):
     def test_good_servers(self):

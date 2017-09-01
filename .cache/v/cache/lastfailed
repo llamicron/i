@@ -1,1 +1,3 @@
-{}
+{
+  "tests/test_seed_data.py::SeedDataTestCase": true
+}

@@ -1,5 +1,5 @@
 from distutils.core import setup
-from i.VERSION import VERSION
+from VERSION import VERSION
 setup(
     name='llamicron-i',
     packages=['i'],

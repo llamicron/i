@@ -4,7 +4,7 @@ import os
 import seed_data
 import copy
 from terminaltables import AsciiTable
-from ..i.i import I
+from ..i import I
 
 class ITestCase(unittest.TestCase):
 
