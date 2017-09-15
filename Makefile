@@ -1,6 +1,17 @@
+# install:
+# 	python setup.py sdist
+# 	pip install dist/*
 install:
-	pyinstaller run --onefile --name i
-	cp dist/i ~/bin/i
+	cp i ~/bin/i
+	cp i.py ~/bin/i.py
+
+
+build:
+	python setup.py sdist
+
+upload:
+	python setup.py sdist
+	twine upload dist/*
 
 clean:
 	rm -rf build
@@ -8,3 +19,6 @@ clean:
 
 test:
 	pytest --cov-report html --cov=i tests/
+
+cov_server:
+	cd htmlcov; python -m SimpleHTTPServer

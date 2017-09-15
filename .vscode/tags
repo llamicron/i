@@ -4,69 +4,73 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-AsciiTable	../i/i.py	/^from terminaltables import AsciiTable$/;"	kind:namespace	line:4
+AsciiTable	../i.py	/^from terminaltables import AsciiTable$/;"	kind:namespace	line:4
 AsciiTable	../tests/test_i.py	/^from terminaltables import AsciiTable$/;"	kind:namespace	line:6
-I	../i/i.py	/^class I:$/;"	kind:class	line:6
-I	../run	/^from i.i import I$/;"	kind:namespace	line:2
-I	../tests/test_i.py	/^from ..i.i import I$/;"	kind:namespace	line:7
+I	../i	/^from i import I$/;"	kind:namespace	line:2
+I	../i.py	/^class I:$/;"	kind:class	line:8
+I	../tests/test_i.py	/^from ..i import I$/;"	kind:namespace	line:7
 ITestCase	../tests/test_i.py	/^class ITestCase(unittest.TestCase):$/;"	kind:class	line:9
 SeedDataTestCase	../tests/test_seed_data.py	/^class SeedDataTestCase(unittest.TestCase):$/;"	kind:class	line:4
-__init__	../i/i.py	/^    def __init__(self, file = None):$/;"	kind:member	line:8
+VERSION	../i	/^from i import VERSION$/;"	kind:namespace	line:4
+VERSION	../i.py	/^VERSION="0.2.3"$/;"	kind:variable	line:6
+VERSION	../setup.py	/^from i import VERSION$/;"	kind:namespace	line:2
+__init__	../i.py	/^    def __init__(self, file = None):$/;"	kind:member	line:10
 __init__.py	../__init__.py	1;"	kind:file	line:1
-__init__.py	../i/__init__.py	1;"	kind:file	line:1
 __init__.py	../tests/__init__.py	1;"	kind:file	line:1
-_create_file	../i/i.py	/^    def _create_file(self):$/;"	kind:member	line:18
-action	../run	/^    action="store",$/;"	kind:variable	line:10
-add	../i/i.py	/^    def add(self, server):$/;"	kind:member	line:95
-argparse	../run	/^import argparse$/;"	kind:namespace	line:3
-args	../run	/^args = parser.parse_args()$/;"	kind:variable	line:28
-ask_for_server_info	../i/i.py	/^    def ask_for_server_info(self): # pragma: no cover$/;"	kind:member	line:81
-author	../setup.py	/^    author='Luke Sweeney',$/;"	kind:variable	line:7
-author_email	../setup.py	/^    author_email='luke@thesweeneys.org',$/;"	kind:variable	line:8
+__version__	../i	/^__version__ = VERSION$/;"	kind:variable	line:6
+_create_file	../i.py	/^    def _create_file(self):$/;"	kind:member	line:20
+action	../i	/^    action="store",$/;"	kind:variable	line:13
+add	../i.py	/^    def add(self, server):$/;"	kind:member	line:97
+argparse	../i	/^import argparse$/;"	kind:namespace	line:3
+args	../i	/^args = parser.parse_args()$/;"	kind:variable	line:33
+ask_for_server_info	../i.py	/^    def ask_for_server_info(self): # pragma: no cover$/;"	kind:member	line:83
+author	../setup.py	/^    author='Luke Sweeney',$/;"	kind:variable	line:8
+author_email	../setup.py	/^    author_email='luke@thesweeneys.org',$/;"	kind:variable	line:9
 bad_servers	../tests/seed_data.py	/^bad_servers = [$/;"	kind:variable	line:37
-choices	../run	/^    choices=["list", "connect", "add", "remove"],$/;"	kind:variable	line:11
-classifiers	../setup.py	/^    classifiers=[],$/;"	kind:variable	line:12
-connect	../i/i.py	/^    def connect(self, server_name): # pragma: no cover$/;"	kind:member	line:68
+choices	../i	/^    choices=["list", "connect", "add", "remove"],$/;"	kind:variable	line:14
+classifiers	../setup.py	/^    classifiers=[],$/;"	kind:variable	line:13
+connect	../i.py	/^    def connect(self, server_name): # pragma: no cover$/;"	kind:member	line:70
 copy	../tests/test_i.py	/^import copy$/;"	kind:namespace	line:5
-description	../setup.py	/^    description='Connect to servers',$/;"	kind:variable	line:6
-dest	../run	/^    dest="find",$/;"	kind:variable	line:19
-dest	../run	/^    dest="server_name",$/;"	kind:variable	line:25
-download_url	../setup.py	/^    download_url='https:\/\/github.com\/llamicron\/i\/archive\/0.1.tar.gz',$/;"	kind:variable	line:10
+description	../setup.py	/^    description='Connect to servers',$/;"	kind:variable	line:7
+dest	../i	/^    dest="find",$/;"	kind:variable	line:22
+dest	../i	/^    dest="server_name",$/;"	kind:variable	line:28
+download_url	../setup.py	/^    download_url='https:\/\/github.com\/llamicron\/i\/archive\/0.1.tar.gz',$/;"	kind:variable	line:11
 extra_servers	../tests/seed_data.py	/^extra_servers = [$/;"	kind:variable	line:54
-find	../i/i.py	/^    def find(self, find):$/;"	kind:member	line:53
-get_server_list	../i/i.py	/^    def get_server_list(self):$/;"	kind:member	line:24
-help	../run	/^    help="Command to run. Options are ['list', 'connect', 'add', 'remove']",$/;"	kind:variable	line:13
-help	../run	/^    help="Find a server",$/;"	kind:variable	line:18
-help	../run	/^    help="Name of a server, eg. 'i connect -n [server_name]'",$/;"	kind:variable	line:24
-i	../run	/^i = I(file="\/Users\/llamicron\/.i")$/;"	kind:variable	line:5
-i.py	../i/i.py	1;"	kind:file	line:1
-json	../i/i.py	/^import json$/;"	kind:namespace	line:3
+find	../i.py	/^    def find(self, find):$/;"	kind:member	line:55
+get_server_list	../i.py	/^    def get_server_list(self):$/;"	kind:member	line:26
+help	../i	/^    help="Command to run. Options are ['list', 'connect', 'add', 'remove']",$/;"	kind:variable	line:16
+help	../i	/^    help="Find a server",$/;"	kind:variable	line:21
+help	../i	/^    help="Name of a server, eg. 'i connect -n [server_name]'",$/;"	kind:variable	line:27
+i	../i	/^i = I(file="\/Users\/llamicron\/.i")$/;"	kind:variable	line:8
+i	../i	1;"	kind:file	line:1
+i.py	../i.py	1;"	kind:file	line:1
+json	../i.py	/^import json$/;"	kind:namespace	line:3
 json	../tests/test_i.py	/^import json$/;"	kind:namespace	line:2
-keywords	../setup.py	/^    keywords=['ssh', 'server', 'connect'],$/;"	kind:variable	line:11
-metavar	../run	/^    metavar="command"$/;"	kind:variable	line:14
-metavar	../run	/^    metavar="find"$/;"	kind:variable	line:20
-metavar	../run	/^    metavar="server name"$/;"	kind:variable	line:26
-name	../setup.py	/^    name='i',$/;"	kind:variable	line:3
-os	../i/i.py	/^import os$/;"	kind:namespace	line:2
+keywords	../setup.py	/^    keywords=['ssh', 'server', 'connect'],$/;"	kind:variable	line:12
+metavar	../i	/^    metavar="command"$/;"	kind:variable	line:17
+metavar	../i	/^    metavar="find"$/;"	kind:variable	line:23
+metavar	../i	/^    metavar="server name"$/;"	kind:variable	line:29
+name	../setup.py	/^    name='llamicron-i',$/;"	kind:variable	line:4
+os	../i.py	/^import os$/;"	kind:namespace	line:2
 os	../tests/test_i.py	/^import os$/;"	kind:namespace	line:3
-packages	../setup.py	/^    packages=['i'],$/;"	kind:variable	line:4
-parser	../run	/^parser = argparse.ArgumentParser(description="Connect to servers")$/;"	kind:variable	line:7
-remove	../i/i.py	/^    def remove(self, server_name):$/;"	kind:member	line:102
-run	../run	1;"	kind:file	line:1
+packages	../setup.py	/^    packages=["."],$/;"	kind:variable	line:5
+parser	../i	/^parser = argparse.ArgumentParser(description="Connect to servers")$/;"	kind:variable	line:10
+remove	../i.py	/^    def remove(self, server_name):$/;"	kind:member	line:104
+scripts	../setup.py	/^    scripts=["i"]$/;"	kind:variable	line:14
 seed_data	../tests/test_i.py	/^import seed_data$/;"	kind:namespace	line:4
-seed_data	../tests/test_seed_data.py	/^from ..i import seed_data$/;"	kind:namespace	line:2
+seed_data	../tests/test_seed_data.py	/^import seed_data$/;"	kind:namespace	line:2
 seed_data.py	../tests/seed_data.py	1;"	kind:file	line:1
-server	../run	/^    server = i.ask_for_server_info()$/;"	kind:variable	line:44
-server_name	../run	/^        server_name = args.server_name$/;"	kind:variable	line:38
-server_name	../run	/^        server_name = args.server_name$/;"	kind:variable	line:50
-server_name	../run	/^        server_name = raw_input("Server name: ")$/;"	kind:variable	line:40
-server_name	../run	/^        server_name = raw_input("Server name: ")$/;"	kind:variable	line:52
-server_table	../i/i.py	/^    def server_table(self):$/;"	kind:member	line:37
+server	../i	/^    server = i.ask_for_server_info()$/;"	kind:variable	line:49
+server_name	../i	/^        server_name = args.server_name$/;"	kind:variable	line:43
+server_name	../i	/^        server_name = args.server_name$/;"	kind:variable	line:55
+server_name	../i	/^        server_name = raw_input("Server name: ")$/;"	kind:variable	line:45
+server_name	../i	/^        server_name = raw_input("Server name: ")$/;"	kind:variable	line:57
+server_table	../i.py	/^    def server_table(self):$/;"	kind:member	line:39
 servers	../tests/seed_data.py	/^servers = [$/;"	kind:variable	line:1
 setUp	../tests/test_i.py	/^    def setUp(self):$/;"	kind:member	line:11
 setup	../setup.py	/^from distutils.core import setup$/;"	kind:namespace	line:1
 setup.py	../setup.py	1;"	kind:file	line:1
-store_server_list	../i/i.py	/^    def store_server_list(self):$/;"	kind:member	line:32
+store_server_list	../i.py	/^    def store_server_list(self):$/;"	kind:member	line:34
 tearDown	../tests/test_i.py	/^    def tearDown(self):$/;"	kind:member	line:103
 test_add_bad_server	../tests/test_i.py	/^    def test_add_bad_server(self):$/;"	kind:member	line:86
 test_add_server	../tests/test_i.py	/^    def test_add_server(self):$/;"	kind:member	line:77
@@ -83,9 +87,10 @@ test_seed_data.py	../tests/test_seed_data.py	1;"	kind:file	line:1
 test_server_table	../tests/test_i.py	/^    def test_server_table(self):$/;"	kind:member	line:38
 test_server_validation	../tests/test_i.py	/^    def test_server_validation(self):$/;"	kind:member	line:59
 test_store_server_list	../tests/test_i.py	/^    def test_store_server_list(self):$/;"	kind:member	line:27
-type	../run	/^    type=str,$/;"	kind:variable	line:12
+type	../i	/^    type=str,$/;"	kind:variable	line:15
 unittest	../tests/test_i.py	/^import unittest$/;"	kind:namespace	line:1
 unittest	../tests/test_seed_data.py	/^import unittest$/;"	kind:namespace	line:1
-url	../setup.py	/^    url='https:\/\/github.com\/llamicron\/i',$/;"	kind:variable	line:9
-validate	../i/i.py	/^    def validate(self, server):$/;"	kind:member	line:75
-version	../setup.py	/^    version='0.1',$/;"	kind:variable	line:5
+url	../setup.py	/^    url='https:\/\/github.com\/llamicron\/i',$/;"	kind:variable	line:10
+validate	../i.py	/^    def validate(self, server):$/;"	kind:member	line:77
+version	../i	/^                    version="%(prog)s (" + __version__ + ")")$/;"	kind:variable	line:32
+version	../setup.py	/^    version=VERSION,$/;"	kind:variable	line:6

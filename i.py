@@ -3,6 +3,8 @@ import os
 import json
 from terminaltables import AsciiTable
 
+VERSION="0.2.8"
+
 class I:
 
     def __init__(self, file = None):

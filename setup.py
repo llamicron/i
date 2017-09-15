@@ -1,8 +1,7 @@
 from distutils.core import setup
-from i_version import VERSION
+from i import VERSION
 setup(
     name='llamicron-i',
-    packages=[],
     version=VERSION,
     description='Connect to servers',
     author='Luke Sweeney',
@@ -10,6 +9,8 @@ setup(
     url='https://github.com/llamicron/i',
     download_url='https://github.com/llamicron/i/archive/0.1.tar.gz',
     keywords=['ssh', 'server', 'connect'],
-    classifiers=[],
+    install_requires=[
+        'terminaltables',
+    ],
     scripts=["i"]
 )
